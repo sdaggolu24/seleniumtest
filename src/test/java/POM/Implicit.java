@@ -20,7 +20,7 @@ public class Implicit {
   public void test () throws InterruptedException {
 	  
 	  
-	  driver= new EdgeDriver();
+	  driver= new ChromeDriver();
 	  
 	  WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(30));
 	 
