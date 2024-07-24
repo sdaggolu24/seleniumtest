@@ -43,9 +43,9 @@ WebElement link=	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpa
 	Thread.sleep(20);
 	
 	
-	Alert alert=  driver.switchTo().alert();
+	//Alert alert=  driver.switchTo().alert();
 	
-	alert.dismiss();
+	//alert.dismiss();
 	
   }
   
@@ -54,7 +54,7 @@ WebElement link=	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpa
   @AfterClass
   void tear_down() {
 	  if (! driver.equals(null)){
-		//  driver.close();
+		  driver.quit();
 	  }
   }
   
