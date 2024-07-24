@@ -54,7 +54,7 @@ WebElement link=	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpa
   @AfterClass
   void tear_down() {
 	  if (! driver.equals(null)){
-		  driver.close();
+		  driver.quit();
 	  }
   }
   
