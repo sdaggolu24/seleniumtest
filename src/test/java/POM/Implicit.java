@@ -22,7 +22,7 @@ public class Implicit {
 	  
 	  driver= new EdgeDriver();
 	  
-	  WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
+	  WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(30));
 	 
 	 // implicit wait declaration
 	 //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -54,7 +54,7 @@ WebElement link=	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpa
   @AfterClass
   void tear_down() {
 	  if (! driver.equals(null)){
-		  driver.quit();
+		  driver.close();
 	  }
   }
   
