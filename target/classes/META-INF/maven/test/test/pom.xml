@@ -98,5 +98,10 @@
     <artifactId>extentreports</artifactId>
     <version>5.1.2</version>
 </dependency>
+  	<dependency>
+  		<groupId>Selenium_TestNG</groupId>
+  		<artifactId>Selenium_TestNG</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>

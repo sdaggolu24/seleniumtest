@@ -33,5 +33,6 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Test_Automation/software/eclipse/plugins/org.testng_7.10.1.r202404130807.jar" sourcepath="C:/Test_Automation/software/eclipse/plugins/org.testng.source_7.10.1.r202404130807.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
